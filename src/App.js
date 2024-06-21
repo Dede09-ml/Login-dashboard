@@ -17,7 +17,7 @@ function App() {
         <BrowserRouter>
 
             <Routes>
-                <Route exact path='' element={<Login nama={handleNama}/>}></Route>
+                <Route exact path='/Login-dashboard' element={<Login nama={handleNama}/>}></Route>
                 <Route exact path='/homepage' element={<Homepage signName={dataLogin}/>}></Route>
                 <Route exact path='/dashboard' element={<Dashboard signName={dataLogin}/>}></Route>
                 

@@ -23,7 +23,7 @@ function Nav({logName}) {
                             <NavDropdown.Item >Profil</NavDropdown.Item>
                             <NavDropdown.Item >Setting</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="/">Sign Out</NavDropdown.Item>
+                            <NavDropdown.Item href="/Login-dashboard">Sign Out</NavDropdown.Item>
                         </NavDropdown>
 
                     </Navbar.Collapse>
